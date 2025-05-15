@@ -18,3 +18,7 @@ Install the Pillow library with pip if you don't have it:
 
 ```bash
 pip install Pillow
+python image_encryption_tool.py <encrypt|decrypt> <input_image> <output_image> <key>
+python image_encryption_tool.py encrypt photo.jpg encrypted.png 123
+python image_encryption_tool.py decrypt encrypted.png decrypted.png 123
+undefined
